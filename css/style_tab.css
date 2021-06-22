@@ -1,0 +1,68 @@
+body {
+    background: black;
+}
+
+.header{
+    border: 2px solid whitesmoke;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+.block-projet h1{
+    color: blanchedalmond;
+    font-size: 3rem;
+   
+    
+    
+}
+.titre{
+    display: flex;
+    justify-content: center;
+}
+
+   
+    
+
+.pochettes{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+}
+.recto img{
+    width: 45vw;
+}
+
+.verso img {
+    width: 45vw;
+}
+
+.lien-dl a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 3vw;
+    border: 3px solid black;
+    width: 35%;
+    color: whitesmoke;
+    border-radius: 15px;
+    background-color: red;
+    padding: 8px 0px 8px 0px;
+
+}
+.lien-dl{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}

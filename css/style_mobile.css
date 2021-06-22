@@ -1,0 +1,72 @@
+body {
+    background: black;
+}
+
+.header{
+    border: 2px solid whitesmoke;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+.block-projet h1{
+    color: blanchedalmond;
+    font-size: 2rem;
+   
+    
+    
+}
+.titre{
+    display: flex;
+    justify-content: center;
+}
+
+   
+    
+
+.pochettes{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:15px 0px 25px 0px ;
+}
+.recto img{
+    width: 100%;
+    
+}
+
+.verso img {
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.lien-dl a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 4vw;
+    border: 3px solid black;
+    width: 60%;
+    color: whitesmoke;
+    border-radius: 15px;
+    background-color: red;
+    padding: 8px 0px 8px 0px;
+
+}
+.lien-dl{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
