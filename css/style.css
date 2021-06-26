@@ -4,6 +4,7 @@ body {
 
 .header{
     border: 2px solid whitesmoke;
+    display: none;
 }
 .nav{
     display: flex;
